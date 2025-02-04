@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Logo from "../assets/Logo.png";
 import { Menu, X } from "lucide-react";
+import Github from "../assets/github.png";
 
 const Navbar = () => {
   const [mobileMenuOpen, setmMobileMenuOpen] = useState(false);
@@ -11,7 +12,18 @@ const Navbar = () => {
           <a href="#" className="mr-6 flex items-center space-x-2">
             <img src={Logo} alt="" className="w-40" />
           </a>
+
           <nav className="md:flex hidden items-center space-x-6 text-lg font-medium">
+            <a
+              href="https://github.com/deepakdev12"
+              className="flex items-center space-x-2 space-y-6"
+            >
+              <img
+                src={Github}
+                alt="GitHub Profile"
+                style={{ cursor: "pointer", width: "30px", height: "30px" }}
+              />
+            </a>
             <a
               href="#about"
               className="text-black hover:text-red-500 transition-colors duration-200"

@@ -1,4 +1,3 @@
-import Portfolio from "../assets/Portfolio.png";
 import Cafeweb from "../assets/Cafeweb.png";
 import Skyeats from "../assets/Skyeats.png";
 import Webelite from "../assets/Webelite.png";

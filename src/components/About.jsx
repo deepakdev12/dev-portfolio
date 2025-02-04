@@ -1,4 +1,3 @@
-import React from "react";
 import MernStack from "../assets/mernstack.png";
 import Html from "../assets/Html.png";
 import Css from "../assets/CSS.png";
@@ -10,6 +9,7 @@ import Bootstrap from "../assets/Bootstrap.png";
 import NodeLogo from "../assets/NodeLogo.png";
 import Mongodb from "../assets/mongodb.svg";
 import Express from "../assets/Express.png";
+import git from "../assets/git.png";
 
 const About = () => {
   return (
@@ -93,6 +93,10 @@ const About = () => {
                   <div className="border border-red-300 flex items-center gap-1 w-max px-2 py-1 rounded-lg shadow-md shadow-red-300">
                     <img src={Express} alt="" className="w-10" />
                     <span className="font-semibold">Express Js</span>
+                  </div>
+                  <div className="border border-red-300 flex items-center gap-1 w-max px-2 py-1 rounded-lg shadow-md shadow-red-300">
+                    <img src={git} alt="" className="w-10" />
+                    <span className="font-semibold">git</span>
                   </div>
                   {/* <div className='border border-red-300 flex items-center gap-1 w-max px-2 py-1 rounded-lg shadow-md shadow-red-300'>
                                         <img src={NextJs} alt="" className='w-9' />

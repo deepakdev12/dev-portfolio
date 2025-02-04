@@ -1,6 +1,5 @@
-import React from "react";
 import hero from "../assets/Hero.png";
-import facebook from "../assets/facebook.png";
+import dev from "../assets/Dev.png";
 import twitter from "../assets/twitter.png";
 import instagram from "../assets/instagram.png";
 import linkedin from "../assets/linkedin.png";
@@ -62,7 +61,7 @@ const Hero = () => {
         </div>
       </div>
       <div className="absolute top-40 right-10 hidden bg-gray-200 p-4 md:flex flex-col gap-6 rounded-full">
-        <img src={facebook} alt="" className="w-20" />
+        <img src={dev} alt="" className="w-20" />
         <img src={instagram} alt="" className="w-20" />
         <img src={twitter} alt="" className="w-20" />
         <img src={linkedin} alt="" className="w-20" />
