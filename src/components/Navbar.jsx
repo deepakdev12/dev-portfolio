@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Logo from "../assets/Logo.png";
 import { Menu, X } from "lucide-react";
-import Github from "../assets/github.png";
+import Github from "../assets/Github.png";
 
 const Navbar = () => {
   const [mobileMenuOpen, setmMobileMenuOpen] = useState(false);
