@@ -1,5 +1,5 @@
 import hero from "../assets/Hero.png";
-import dev from "../assets/Dev.png";
+import dev from "../assets/dev.png";
 import twitter from "../assets/twitter.png";
 import instagram from "../assets/instagram.png";
 import linkedin from "../assets/linkedin.png";
