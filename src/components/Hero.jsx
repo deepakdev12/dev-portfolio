@@ -6,8 +6,18 @@ import linkedin from "../assets/linkedin.png";
 import reactLogo from "../assets/React.png";
 import reduxLogo from "../assets/Redux.png";
 import tailwind from "../assets/Tailwind Css.png";
+import React, { useState, useEffect } from "react";
 
 const Hero = () => {
+  const [text, setText] = useState("FRONTEND");
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setText((prevText) => (prevText === "FRONTEND" ? "BACKEND" : "FRONTEND"));
+    }, 2000); // 2000ms = 2 seconds
+
+    return () => clearInterval(interval);
+  }, []);
   return (
     <section className="relative">
       <div className="max-w-7xl mx-auto">
@@ -18,7 +28,8 @@ const Hero = () => {
               I'm Deepak <span className="text-red-500">Dharmode</span>
             </h1>
             <p className="md:text-2xl text-xl mb-4">
-              <span className="text-red-500">WEB</span> Developer and Designer
+              <span className="text-red-500">{text}</span> Developer and
+              Designer
             </p>
 
             <p className="mb-4">
