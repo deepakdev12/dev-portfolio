@@ -15,14 +15,14 @@ const Hero = () => {
           <div className="md:w-1/2 mb-8 md:mb-0 flex flex-col space-y-4 px-6 lg:px-0 lg:mt-0 mt-10">
             <h1 className="lg:text-7xl text-4xl font-bold lg:leading-snug">
               Hi There, <br />
-              I&apos Deepak <span className="text-red-500">Dharmode</span>
+              I'm Deepak <span className="text-red-500">Dharmode</span>
             </h1>
             <p className="md:text-2xl text-xl mb-4">
               <span className="text-red-500">WEB</span> Developer and Designer
             </p>
 
             <p className="mb-4">
-              I'm a Passionate Frontend Developer with expertise in React,
+              I&apos;m a Passionate Frontend Developer with expertise in React,
               Tailwind, and Bootstrap, crafting visually stunning and responsive
               web applications. Skilled in MongoDB and Node.js, ensuring
               seamless full-stack development. Dedicated to creating
