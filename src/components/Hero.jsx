@@ -15,7 +15,7 @@ const Hero = () => {
           <div className="md:w-1/2 mb-8 md:mb-0 flex flex-col space-y-4 px-6 lg:px-0 lg:mt-0 mt-10">
             <h1 className="lg:text-7xl text-4xl font-bold lg:leading-snug">
               Hi There, <br />
-              I'm Deepak <span className="text-red-500">Dharmode</span>
+              I&apos Deepak <span className="text-red-500">Dharmode</span>
             </h1>
             <p className="md:text-2xl text-xl mb-4">
               <span className="text-red-500">WEB</span> Developer and Designer
