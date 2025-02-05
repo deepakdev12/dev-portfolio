@@ -7,6 +7,7 @@ import Swal from "sweetalert2";
 const Contact = () => {
   const onSubmit = async (event) => {
     event.preventDefault();
+    const form = event.target;
     const formData = new FormData(event.target);
 
     formData.append("access_key", "91011b1a-771e-4869-9821-d9e482627fd2");
@@ -30,6 +31,7 @@ const Contact = () => {
           icon: "success",
           draggable: true,
         });
+        form.reset();
       } else {
         Swal.fire({
           title: "Error sending message",
