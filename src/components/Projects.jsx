@@ -2,16 +2,16 @@ import Cafeweb from "../assets/Cafeweb.png";
 import Skyeats from "../assets/Skyeats.png";
 import Webelite from "../assets/Webelite.png";
 import Cards from "./Cards";
-
+import portfolio from "../assets/portfolio.png";
 const Projects = () => {
   const projectJson = [
-    // {
-    //   title: "Portfolio",
-    //   desc: "Webelite Builders did an amazing job on our website. Their professionalism and dedication to our project were outstanding.",
-    //   image: Portfolio,
-    //   live: "https://rohitsingh93300-portfolio.vercel.app/",
-    //   github: "https://github.com/rohitsingh93300/portfolio",
-    // },
+    {
+      title: "Portfolio",
+      desc: "Webelite Builders did an amazing job on our website. Their professionalism and dedication to our project were outstanding.",
+      image: portfolio,
+      live: "dev-portfolio-cyan-one.vercel.app/",
+      github: "https://github.com/deepakdev12/dev-portfolio.git",
+    },
     {
       title: "Cafecoolday",
       desc: "Brew, Relax, Repeat – Welcome to CCD, where every sip tells a story! ☕✨ Step into a warm, inviting space filled with the aroma of freshly brewed coffee and handcrafted delights.",
