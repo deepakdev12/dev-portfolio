@@ -3,6 +3,7 @@ import Skyeats from "../assets/Skyeats.png";
 import Webelite from "../assets/Webelite.png";
 import Cards from "./Cards";
 import portfolio from "../assets/portfolio.png";
+import bookslab from "../assets/bookslab.png";
 const Projects = () => {
   const projectJson = [
     {
@@ -27,11 +28,11 @@ const Projects = () => {
       github: "https://github.com/deepakdev12/Grocery-Drone-Delivery-Web.git",
     },
     {
-      title: "Webelite builder",
+      title: "Bookslab",
       desc: "Working with Webelite Builders was a seamless experience. They brought our vision to life with a modern, responsive website.",
-      image: Webelite,
-      live: "https://www.webelitebuilders.com/",
-      github: "#",
+      image: bookslab,
+      live: "booklabs.vercel.app",
+      github: "https://github.com/deepakdev12/Booklabs.git",
     },
     // {
     //   title: "Super Car",
