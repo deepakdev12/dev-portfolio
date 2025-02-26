@@ -38,8 +38,8 @@ const Projects = () => {
     //   title: "Super Car",
     //   desc: "Working with Webelite Builders was a seamless experience. They brought our vision to life with a modern, responsive website.",
     //   image: Supercar,
-    //   live: "https://supercar123.netlify.app/",
-    //   github: "https://github.com/rohitsingh93300/supercars",
+    //   live: "# ",
+    //   github: "#",
     // },
   ];
 
