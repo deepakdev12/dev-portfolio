@@ -7,7 +7,7 @@ const Projects = () => {
   const projectJson = [
     {
       title: "Portfolio",
-      desc: "Webelite Builders did an amazing job on our website. Their professionalism and dedication to our project were outstanding.",
+      desc: "A dynamic and visually appealing portfolio website showcasing my skills, projects, and experience as a developer. Built with modern web technologies for an interactive and responsive user experience.",
       image: portfolio,
       live: "dev-portfolio-cyan-one.vercel.app/",
       github: "https://github.com/deepakdev12/dev-portfolio.git",
@@ -28,7 +28,7 @@ const Projects = () => {
     },
     {
       title: "Bookslab",
-      desc: "Working with Webelite Builders was a seamless experience. They brought our vision to life with a modern, responsive website.",
+      desc: "Bookslab is a web platform for discovering, reviewing, and managing books with a seamless user experience.",
       image: bookslab,
       live: "booklabs.vercel.app",
       github: "https://github.com/deepakdev12/Booklabs.git",
