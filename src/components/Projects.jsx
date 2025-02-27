@@ -1,9 +1,8 @@
 import Cafeweb from "../assets/Cafeweb.png";
 import Skyeats from "../assets/Skyeats.png";
-import Webelite from "../assets/Webelite.png";
 import Cards from "./Cards";
 import portfolio from "../assets/portfolio.png";
-import bookslab from "../assets/bookslab.png";
+import bookslab from "../assets/Bookslab.png";
 const Projects = () => {
   const projectJson = [
     {
@@ -51,7 +50,7 @@ const Projects = () => {
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 place-items-center gap-10">
           {projectJson.map((items) => {
-            return <Cards item={items} />;
+            return <Cards key={items.title} item={items} />;
           })}
         </div>
       </div>
