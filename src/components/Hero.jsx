@@ -6,7 +6,7 @@ import linkedin from "../assets/linkedin.png";
 import reactLogo from "../assets/React.png";
 import reduxLogo from "../assets/Redux.png";
 import tailwind from "../assets/Tailwind Css.png";
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 
 const Hero = () => {
   const [text, setText] = useState("FRONTEND");
@@ -43,7 +43,7 @@ const Hero = () => {
             </p>
             <button className="bg-black text-white px-3 py-2 w-max rounded-md">
               <a
-                href="https://drive.google.com/file/d/1ysfxIh721ZjWc6kRQCWmcMCFQr-taAxT/view?usp=drivesdk"
+                href="https://drive.google.com/file/d/18ln5XWqB_fyw_ycBVr8jpmUn5Ng6hQKD/view?usp=drivesdk"
                 download
                 target="_blank"
               >
